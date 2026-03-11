@@ -1,16 +1,23 @@
-# expances_tracker
+# 💰 Expenses Tracker App
 
-A new Flutter project.
+A Flutter app to track and manage monthly expenses 
+with local database support.
+
+## Features
+- Add new expenses with amount, title and category
+- Delete expenses
+- Monthly expense tiles — view spending by month
+- Total spending summary
+- Persistent data — expenses saved locally with Isar DB
+- Clean and intuitive UI
+
+## Tech Stack
+- Flutter & Dart
+- Isar Local Database
+- State Management
+- Flutter Widgets
 
 ## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. Clone the repo
+2. Run `flutter pub get`
+3. Run `flutter run`
